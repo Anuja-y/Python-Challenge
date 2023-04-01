@@ -12,15 +12,15 @@ csvpath = os.path.join('PyBank\Resources','budget_data.csv')
 with open(csvpath) as csvfile:
 
     csvreader = csv.reader(csvfile, delimiter=',')
-    print(csvreader)
+    #print(csvreader)
     csv_header = next(csvreader)
-    print(f'CSV Header:{csv_header}')
+    #print(f'CSV Header:{csv_header}')
     
     firstrow = next(csvreader)
     previousnet = int(firstrow[1]) 
     totalbudget = int(firstrow[1]) 
     for row in csvreader:
-        print(row)
+        #print(row)
         #Capture data to calculate average change       
         totalbudget += int(row[1])
         netchange = int(row[1]) - previousnet
@@ -38,10 +38,11 @@ with open(csvpath) as csvfile:
             greatest_decrease[1] = netchange
     averagechange = sum(netchangelist)/len(netchangelist)
 
+# Print results
 print("Financial Analysis")
-print("----------------------------------------------")
+print("--------------------------------------------------------------")
 print("Total Months:", (csvreader.line_num - 1))
-print("Total:",totalbudget)
-print("Average Change:",averagechange)
-print("Greatest Increase in Profits:", greatest_increase)
-print("Greatest Decrease in Profits:",greatest_decrease)
+print("Total: $",totalbudget)
+print("Average Change: $",round((averagechange),2))
+print("Greatest Increase in Profits:", greatest_increase[0],"($",greatest_increase[1],")")
+print("Greatest Decrease in Profits:", greatest_decrease[0],"($",greatest_decrease[1],")")
