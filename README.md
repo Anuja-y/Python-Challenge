@@ -1,6 +1,7 @@
 # Python-Challenge 
 
 **PyBank**
+
 Resources: budget_data.csv
 Wrote a Python script to analyse financial records of a company as below:
 1. The total number of months included in the dataset
@@ -10,6 +11,7 @@ Wrote a Python script to analyse financial records of a company as below:
 5. The greatest decrease in profits (date and amount) over the entire period
 
 **PyPoll**
+
 Resources: election_data.csv
 Wrote a Python script that analyzes the votes and calculates each of the following values:
 1. The total number of votes cast
@@ -18,7 +20,12 @@ Wrote a Python script that analyzes the votes and calculates each of the followi
 4. The total number of votes each candidate won
 5. The winner of the election based on popular vote
 
-**References**
-I have referred to various sources including and not limited to youtube, https://www.w3schools.com/,learnpython.com,www.geeksforgeeks.org,flexiple.com,www.simplilearn.com and askBCS and a tutor to understand various Python related concepts that I was struggling with and then implimented it in the code.
+**RESOURCES:**
+
+1. YouTube
+2. https://www.w3schools.com/
+3. learnpython.com
+4. www.geeksforgeeks.org
+5. flexiple.com,www.simplilearn.com 
 
 Please do not hesitate to contact me if further information is required.
