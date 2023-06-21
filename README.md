@@ -1,7 +1,24 @@
-# Python-Challenge (Assignment#3)
+# Python-Challenge 
 
-Please see attached my code which has all functionalities as per the requirement. It prints correct results to the terminal and also in the text file in a separate folder named 'Analysis' as per the requirement.
+**PyBank**
+Resources: budget_data.csv
+Wrote a Python script to analyse financial records of a company as below:
+1. The total number of months included in the dataset
+2. The net total amount of "Profit/Losses" over the entire period
+3. The changes in "Profit/Losses" over the entire period, and then the average of those changes
+4. The greatest increase in profits (date and amount) over the entire period
+5. The greatest decrease in profits (date and amount) over the entire period
 
+**PyPoll**
+Resources: election_data.csv
+Wrote a Python script that analyzes the votes and calculates each of the following values:
+1. The total number of votes cast
+2. A complete list of candidates who received votes
+3. The percentage of votes each candidate won
+4. The total number of votes each candidate won
+5. The winner of the election based on popular vote
+
+**References**
 I have referred to various sources including and not limited to youtube, https://www.w3schools.com/,learnpython.com,www.geeksforgeeks.org,flexiple.com,www.simplilearn.com and askBCS and a tutor to understand various Python related concepts that I was struggling with and then implimented it in the code.
 
-Please let me know if you need further info.
+Please do not hesitate to contact me if further information is required.
